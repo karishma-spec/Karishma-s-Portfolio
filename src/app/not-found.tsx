@@ -9,7 +9,7 @@ import { FaHouse, FaArrowLeft } from "react-icons/fa6";
 
 import { Navbar, Footer } from "@/components/common";
 import { Button } from "@/components/ui/button";
-import { quentine, nasalization } from "@/app/fonts";
+import { quentine, nasalization } from "../fonts";
 
 export default function NotFound() {
   const router = useRouter();
@@ -151,4 +151,5 @@ export default function NotFound() {
     </div>
   );
 }
+
 
